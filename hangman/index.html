@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body onload="actualWords()">
+   
+    <div class="header">
+      <h1>Hangman</h1>
+      <p>All possible words are related to software. Enter a letter below.</p>
+    </div>
+    
+    <div id="guessBox">
+      <input id="letterGuessInput" type="text"><br>
+      <button id="playButton" onclick="handlers.call()">Play</button>
+      <button onclick="location.reload()">Restart</button>
+    </div>
+    
+ 
+  <div id="wordDisplay">
+    <div id="userGuessCheckDisplay"></div>
+    <p id="userWordDis"></p>
+  </div>
+ 
+  <div class="hangmanPic"> 
+    <div id="stand"></div>
+    <div id="crossBar"></div>
+    <div id="rope"></div>
+    <div id="head"></div>
+    <div id="torso"></div>
+    <div id="leftArm"></div>
+    <div id="rightArm"></div>
+    <div id="leftLeg"></div>
+    <div id="rightLeg"></div>
+  </div>
+    
+    
+    
+    <script src="script.js"></script>
+  </body>
+
+</html>

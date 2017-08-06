@@ -1,0 +1,19 @@
+/* Styles go here */
+
+td {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+}
+
+.letters {
+  border: 1px solid black;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+
+.letter {
+  border: 1px solid black;
+  position: absolute;
+}
